@@ -11,7 +11,7 @@
 }
 ```
 ##### Response: 
-*Note: Please use response token in Authorization headers*
+*Note: Please use response token in Authorization headers for all endpoints mentioned in this wiki page*
 ```
 42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX
 ```
