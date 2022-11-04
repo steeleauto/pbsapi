@@ -1,6 +1,7 @@
 # Steele Auto Group: API For PBS Systems
 ## Base URL: https://steeleauto.com
 - ### Get Authentication Token
+*Please contact development team to get your account and authorization to use all endpoints*
 ##### Request Type: POST API endpoint: /api/dealboxx/login/token
 ##### Example: https://steeleauto.com/api/dealboxx/login/token
 ##### Request:
