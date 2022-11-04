@@ -24,7 +24,10 @@ Authorization Bearer 42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX
 ##### Request Type: POST API endpoint: /api/dealboxx/pbs/contact
 ##### Example: https://steeleauto.com/api/dealboxx/pbs/contact
 ##### Headers: 
-``` Authorization Bearer 42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX ```
+``` 
+Authorization: Bearer 42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX 
+Accept: application/json
+```
 ##### Request *(JSON)*:
 ```json
 {
