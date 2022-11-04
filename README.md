@@ -12,7 +12,7 @@
 ```
 ##### Response: 
 *Note: Please use response token in Authorization headers*
-```json
+```
 42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX
 ```
 *i.e Authorization Header*
