@@ -1,7 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://steeleauto.com/img/logo.png" width="400"></a></p>
 
 # Marketing & Development
-#### Available WebSites
 - **[Steele Auto](https://steeleauto.com/)**
 - **[Steele All EV](https://allev.ca/)**
 - **[Steele Advantage Financing](https://steeleadvantagefinancing.com/)**
