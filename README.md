@@ -22,63 +22,76 @@
 ```
 ##### Response: 
 *Note: Please use response token in Authorization headers for all endpoints mentioned in this wiki page*
-```
-42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX
+```json
+{
+    "token": "45|BVFwfuSTTMjYpwuCin2OS2V8XXXXXXXXXX"
+}
 ```
 *i.e Authorization Header*
 ```
-Authorization Bearer 42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX
+Authorization Bearer 45|BVFwfuSTTMjYpwuCin2OS2V8XXXXXXXXXX
 ```
 - ### Create/Update Contact
-##### Request Type: POST API endpoint: /api/dealboxx/pbs/contact
-##### Example: https://steeleauto.com/api/dealboxx/pbs/contact
+##### Request Type: POST API endpoint: /api/dealboxx/pbs/ContactSave
+##### Example: https://steeleauto.com/api/dealboxx/pbs/ContactSave
 ##### Headers: 
 ``` 
-Authorization: Bearer 42|387phvqUIGxUDMV7J2K1zW1SxXXXXXXXXX 
+Authorization: Bearer 45|BVFwfuSTTMjYpwuCin2OS2V8XXXXXXXXXX 
 Accept: application/json
 ```
 ##### Request *(JSON)*:
 ```json
 {
-  "SerialNumber": "Numeric", 
-  "Code": null, 
-  "ContactId":"STRING | REQUIRED",
-  "Salutation": null,
-  "ContactName": null,
-  "StatusName": null,
-  "FullName": null,
-  "FirstName": null,
-  "MiddleName": null,
-  "LastName": null,
-  "ApartmentNumber": null,
-  "Address": null,
-  "City": null,
-  "State": null,
-  "ZipCode": null,
-  "BusinessPhone": null,
-  "HomePhone": null,
-  "CellPhone": null,
-  "FaxNumber": null,
-  "EmailAddress": null,
-  "BirthDate": null,
-  "Gender": null,
-  "DriverLicense": null,
-  "CanEmail": null,
-  "CanTextMessage": null,
-  "CanPhone": null,
-  "CanLetter": null,
-  "CriticalMemo": null,
-  "SalesRepRef": null,
+  "ContactInfo": {
+    "Id": "7129/00000000-0000-0000-0000-000000000000",
+    "ContactId": "00000000000000000000000000000000",
+    "SerialNumber": "7129",
+    "Code": "",
+    "LastName": "",
+    "FirstName": "",
+    "Salutation": "",
+    "MiddleName": "",
+    "ContactName": "",
+    "ApartmentNumber": "",
+    "Address": "",
+    "City": "",
+    "County": "",
+    "State": "",
+    "ZipCode": "",
+    "BusinessPhone": "",
+    "HomePhone": "",
+    "CellPhone": "",
+    "BusinessPhoneRawReverse": "",
+    "HomePhoneRawReverse": "",
+    "CellPhoneRawReverse": "",
+    "FaxNumber": "",
+    "EmailAddress": "",
+    "Notes": "",
+    "CriticalMemo": "",
+    "Gender": "",
+    "DriverLicense": "",
+    "PreferredContactMethods": [],
+    "LastUpdate": "\/Date(-62135596800000-0000)\/",
+    "CustomFields": [],
+    "FleetType": "",
+    "SalesRepRef": "00000000000000000000000000000000",
+    "Language": "",
+    "PayableAccount": "",
+    "ReceivableAccount": "",
+    "PrimaryImageRef": "00000000000000000000000000000000",
+    "PayableAccounts": [],
+    "ReceivableAccounts": [],
+    "IsAPVendor": false,
+    "IsARCustomer": false
+  }
 }
 ```
 ##### Response 
 ```json
 {
-    "message": "Information processed successfully.",
-    "code": 200,
-    "data": {
-        "ContactId": "00001f0ba6e54d5a8953aXXXXXXXX"
-    },
-    "success": true
+  "Message": "Information processed successfully.",
+  "ReferenceNumber": 200,
+  "ReferenceId": "00000000000000000000000000000000",
+  "WasSuccessful": true
 }
 ```
