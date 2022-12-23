@@ -497,3 +497,89 @@ Accept: application/json
   "WasSuccessful": true
 }
 ```
+- ### Create/Update Service Appointment
+##### Request Type: POST API endpoint: /api/dealboxx/pbs/ServiceAppointmentSave
+##### Example: https://steeleauto.com/api/dealboxx/pbs/ServiceAppointmentSave
+##### Headers:
+``` 
+Authorization: Bearer 45|BVFwfuSTTMjYpwuCin2OS2V8XXXXXXXXXX 
+Accept: application/json
+```
+##### Request *(JSON)*:
+```json
+{
+  "AppointmentInfo": {
+    "Id": "7129/00000000-0000-0000-0000-000000000000",
+    "AppointmentId": "00000000000000000000000000000000",
+    "SerialNumber": "7129",
+    "AppointmentNumber": 0,
+    "RawAppointmentNumber": "",
+    "Shop": "",
+    "Advisor": "",
+    "BookingUser": "",
+    "Transportation": "",
+    "ContactRef": "00000000000000000000000000000000",
+    "VehicleRef": "00000000000000000000000000000000",
+    "MileageIn": 0,
+    "IsComeback": false,
+    "IsWaiter": false,
+    "AppointmentTime": "\/Date(-62135596800000-0000)\/",
+    "PickupTime": "\/Date(-62135596800000-0000)\/",
+    "RequestLines": [
+      {
+        "AppointmentRequestRef": "00000000000000000000000000000000",
+        "AppointmentRequestId": -1,
+        "CSR": "",
+        "Skill": "",
+        "RequestCode": "",
+        "RequestDescription": "",
+        "AllowedHours": 0,
+        "EstimateLabour": 0,
+        "EstimateParts": 0,
+        "PartsLines": [
+          {
+            "AppointmentPartsLineRef": "00000000000000000000000000000000",
+            "AppointmentPartsLineId": -1,
+            "CSR": "",
+            "PartNumber": "",
+            "PartDescription": "",
+            "Requested": 0,
+            "Shipped": 0,
+            "Ordered": 0,
+            "PriceCode": "",
+            "Cost": 0,
+            "UnitPrice": 0,
+            "ExtendedPrice": 0,
+            "IsPartsKit": false,
+            "PartsKitName": "",
+            "BIN": "",
+            "IsTransferred": false
+          }
+        ],
+        "LabourOpDescription": "",
+        "PayType": "",
+        "Tech": "",
+        "Status": ""
+      }
+    ],
+    "LastUpdate": "\/Date(-62135596800000-0000)\/",
+    "Status": "",
+    "Notes": "",
+    "Source": "",
+    "PendingRequest": false,
+    "CheckedIn": false,
+    "LeadRef": "",
+    "NotifyType": "",
+    "Tag": ""
+  }
+}
+```
+##### Response 
+```json
+{
+  "Message": "Information processed successfully.",
+  "ReferenceNumber": 200,
+  "ReferenceId": "00000000000000000000000000000000",
+  "WasSuccessful": true
+}
+```
