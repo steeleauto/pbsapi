@@ -498,8 +498,8 @@ Accept: application/json
 }
 ```
 - ### Create/Update Service Appointment
-##### Request Type: POST API endpoint: /api/dealboxx/pbs/ServiceAppointmentSave
-##### Example: https://steeleauto.com/api/dealboxx/pbs/ServiceAppointmentSave
+##### Request Type: POST API endpoint: /api/dealboxx/pbs/AppointmentSave
+##### Example: https://steeleauto.com/api/dealboxx/pbs/AppointmentSave
 ##### Headers:
 ``` 
 Authorization: Bearer 45|BVFwfuSTTMjYpwuCin2OS2V8XXXXXXXXXX 
